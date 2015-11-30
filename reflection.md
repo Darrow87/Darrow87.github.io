@@ -1,4 +1,4 @@
-http://darrow87.github.io/
+http://darrow87.github.io/index.html
 
 What did you learn about CSS padding, borders, and margin by doing this challenge?
 
