@@ -1,0 +1,50 @@
+html {
+  background-color: #808080
+}
+
+a:link {
+  text-decoration: none;
+  color: black
+}
+
+a:visited {
+  color: black
+}
+
+table {
+  border: 1px solid black;
+  border-width: 2px;
+  border-spacing: 10px;
+  margin-top: 275px;
+  margin-left: 150px;
+}
+
+#about-me {
+  border-right: 1px solid black;
+  border-width: 2px;
+  padding: 73px;
+  font-size: 35px;
+  font-family: Lantinghei SC;
+}
+
+#media {
+  border-right: 1px solid black;
+  border-width: 2px;
+  font-size: 35px;
+  padding: 73px;
+  font-family: Lantinghei SC
+}
+
+#blog {
+  border-right: 1px solid black;
+  border-width: 2px;
+  font-size: 35px;
+  padding: 73px;
+  font-family: Lantinghei SC
+}
+
+#contact {
+  font-size: 35px;
+  padding: 73px;
+  font-family: Lantinghei SC
+}
