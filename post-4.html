@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+      <link type="text/css" rel="stylesheet" href="stylesheets/default.css" >
+    <link type="text/css" rel="stylesheet" href="stylesheets/blog.css" >
+</head>
+
+<main>
+  <h1>Enumerable group_by</h1>
+
+      <table>
+        <tbody>
+            <tr>
+                <td id="about-me"> <a href="#">About Me</a> </td>
+                <td id="media"> <a href="#">Media</a> </td>
+                <td id="blog"> <a href="#">Blog</a> </td>
+                <td id="contact"> <a href="#">Contact</a> </td>
+            </tr>
+        </tbody>
+    </table>
+  <hr>
+  <h4>1/10/2015</h4>
+
+  <section>
+    <p>
+ Hey there, this post will be about the enumerable method group_by
+    </p>
+
+    <p>
+Essentially, the group_by method groups the elements of an array into a hash based on a certain criteria. For example, say you wanted to group an array of animal names by their length. array = ["lion", "tiger", "bear", "rhino"]. grouped_array = array.group_by {|animal| animal.length}. This would return a hash. grouped_array = {4 => [lion, bear], 5 => [tiger, rhino]}.
+    </p>
+    <p>
+As you can see the criteria that we passed, animal.length, became the key for the hash, and the items of the array that satified that criteria became the values for that hash, in an array format.
+    </p>
+
+
+
+
+  </section>
+</main>
