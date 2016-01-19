@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+      <link type="text/css" rel="stylesheet" href="stylesheets/default.css" >
+    <link type="text/css" rel="stylesheet" href="stylesheets/blog.css" >
+</head>
+
+<main>
+  <h1>Classes</h1>
+
+      <table>
+        <tbody>
+            <tr>
+                <td id="about-me"> <a href="#">About Me</a> </td>
+                <td id="media"> <a href="#">Media</a> </td>
+                <td id="blog"> <a href="#">Blog</a> </td>
+                <td id="contact"> <a href="#">Contact</a> </td>
+            </tr>
+        </tbody>
+    </table>
+  <hr>
+  <h4>1/18/2015</h4>
+
+  <section>
+    <p>
+ Hey there, this post will be about Ruby Classes.
+    </p>
+
+    <p>
+Basically, a class is a ruby object that you can imbue with certain abilites through methods. Pretty much everything you already use in method is a class. For example, strings are classes. And when you use a method on a string, such as .length, that is one of the abilities someone imbued that class with.
+    </p>
+    <p>
+Another benefit of a class is that you can define a variable, called an instance variable, that will be recognized all through the class, even between different methods within the class. If you remember, typically a variable will only be recognized in the method in which you define it, but not so with classes, and this can be very convenient. The syntax for an instance variable is the same as a regular variable, but it has a @ sign at the beginning.
+    </p>
+        <p>
+Instance variables are particularly useful in a required methods for classes: initialize. Initialize is something that runs automatically when you create an instance of a class, giving it certain properties or characteristics. Accordingly, we can say that instance variables in initialize give properties to the class, and the methods we then define imbue that class with certain abilities.
+    </p>
+        <p>
+For example, say you wanted to create a class to mimic a die. You would first give it certain characteristics through instance variables in the initalize method. For example, @sides = 6. Now we know that every instance of this class we create will have this property. Now let's give the class an ability. Say we want to return a random number everytime the die is rolled. We would write a method defined roll that would return a random number 1 through 6. Then we could could it on our class using dice.roll. This is the same way we would used string.length.
+    </p>
+
+
+
+
+  </section>
+</main>
